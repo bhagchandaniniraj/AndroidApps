@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="146dp"
+        app:srcCompat="@drawable/primerangebanner" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24dp"
+        android:textAlignment="center"
+        android:text="Find Prime between given Range" />
+
+    <EditText
+        android:id="@+id/startNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Starting Number"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/endNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter Ending Number"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/showMe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculate it!" />
+
+    <TextView
+        android:id="@+id/displayMessage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Range will be displayed here..." />
+
+</LinearLayout>
