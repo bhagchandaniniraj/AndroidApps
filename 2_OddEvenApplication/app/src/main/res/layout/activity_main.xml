@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="449dp"
+        android:layout_height="140dp"
+        app:srcCompat="@drawable/banner"
+        tools:layout_editor_absoluteX="-19dp"
+        tools:layout_editor_absoluteY="-8dp" />
+
+    <TextView
+        android:id="@+id/SimpleText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Odd Even Application" />
+
+    <EditText
+        android:id="@+id/startNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Starting Number"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/endNum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ending Number"
+        android:ems="10"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/showMe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+    <TextView
+        android:id="@+id/displayMe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculated message will display here... " />
+
+</LinearLayout >
